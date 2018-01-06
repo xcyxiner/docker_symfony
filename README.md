@@ -12,5 +12,5 @@ https://hub.docker.com/r/nimmis/apache-php7/
 # eg
 
 ```
-docker run  -d  -p 8080:80  -v /path/to/websource:/var/www/html  xcyxiner/php7:symfony3
+docker run  -d  -p 8080:80  -v /path/to/websource:/var/www/html  xcyxiner/symfony
 ```
