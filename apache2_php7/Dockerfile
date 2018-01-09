@@ -1,6 +1,7 @@
 #VERSION 0.0.1
 #symfony3 基于apache2 php7实现
-FROM nimmis/apache-php7
+#FROM nimmis/apache-php7 7.022
+FROM mobingi/ubuntu-apache2-php7:7.2
 #签名
 MAINTAINER xcyxiner "xcyxiner@me.com"
 RUN apt-get update
