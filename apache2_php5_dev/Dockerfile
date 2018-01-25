@@ -41,3 +41,5 @@ RUN mv  phpunit /usr/local/bin/phpunit
 ADD 000-default.conf /etc/apache2/sites-available/000-default.conf
 #w3m
 RUN apt-get install -y w3m
+#ext-mongo ^1.5
+RUN apt-get install php-mongo
