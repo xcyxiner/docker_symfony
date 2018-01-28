@@ -1,1 +1,1 @@
-docker build -t xcyxiner/symfony:dev_php5 .
+docker build -t xcyxiner/symfony:apache2_php5_dev .

@@ -39,3 +39,7 @@ RUN chmod +x phpunit
 RUN mv  phpunit /usr/local/bin/phpunit
 #update apache config
 ADD 000-default.conf /etc/apache2/sites-available/000-default.conf
+#w3m
+RUN apt-get install -y w3m
+#laravel/installer 依赖  php-zip
+RUN apt-get install -y php-zip
